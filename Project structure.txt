@@ -1,0 +1,33 @@
+electrolyte_pdf_agent/
+├── README.md
+├── requirements.txt
+├── gpt_api.example.txt
+├── .gitignore
+├── run_pipeline.py
+├── extractor/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── field_catalog.py
+│   ├── schemas.py
+│   ├── prompts.py
+│   ├── llm_client.py
+│   ├── pdf_utils.py
+│   ├── postprocess.py
+│   ├── output_manager.py
+│   ├── logging_utils.py
+│   ├── schema_validation.py
+│   └── agent.py
+├── scripts/
+│   ├── export_short_learnings.py
+│   └── create_output_templates.py
+├── tests/
+│   ├── conftest.py
+│   ├── test_config.py
+│   ├── test_postprocess.py
+│   ├── test_docs_and_schemas.py
+│   ├── test_agent_smoke.py
+│   └── test_output_manager.py
+├── pdf_files/
+│   └── PUT_PDFS_HERE.txt
+└── output_templates/
+    └── README.md
