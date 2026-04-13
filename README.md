@@ -1,5 +1,5 @@
-# Electrolyte PDF Extraction Agent
-
+# Electrolyte PDF Extraction Agent (owned by MII Lab at KAIST)
+This is an ongoing research project. Please do not reuse or redistribute the code or methodology without proper attribution.
 A modular, agentic LLM pipeline for extracting structured electrolyte, common-condition, formation, test, raw-result, and A2R-expanded data from many research-paper PDFs in a folder named `pdf_files`, using the API key in `gpt_api.txt`, and saving the results to CSV and Excel files.
 
 ## What it extracts
